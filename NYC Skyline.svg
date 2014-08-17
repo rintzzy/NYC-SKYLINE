@@ -1,0 +1,48 @@
+<!-- Project name : NYC SKYLINE -->
+<!-- Author : Somnath Mukherjee -->
+<!-- Contact : somnathbm0@gmail.com -->
+<!-- Hand-coded using Notepad++ -->
+<!-- 24th June,2014 -->
+<!-- Best viewed @ 1280px width screen -->
+
+<svg id = "container" xmlns = "http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">  <!-- outer svg container for entire screen -->
+ <rect x = "0" y = "0" width = "1279" height = "644" stroke = "black" stroke-width = "1" />
+<svg xmlns = "http://www.w3.org/2000/svg">  <!-- Inner svg container for the NYC panoroma view -->
+ <style rel = "stylesheet">
+    @font-face{
+	  font-family:"open sans";
+	  src:url('fonts/OpenSans-Regular-webfont.eot');
+	  src:url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	      url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		  url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+		  url('fonts/OpenSans-Regular-webfont.svg') format('svg');
+	  font-weight:normal;
+    }
+    #footer{
+        font-family:"open sans";
+    }		
+ </style>
+ <linearGradient id = "lg">
+  <stop offset = "0" stop-color = "#ee5e3f" />
+  <stop offset = "0.4" stop-color = "#e95333" />
+  <stop offset = "1" stop-color = "#f74233" />
+ </linearGradient>
+ 
+ <rect x = "70" y = "50" width = "1135" height = "566" stroke = "black" stroke-width = "2" fill = "url(#lg)" />
+ <polyline points = "70,350 118,350 118,400 137,410 137,615 70,615" stroke = "black" stroke-width = "2"/>
+ <polyline points = "137,615 139,348 163,341 164,323 175,322 175,309 188,309 188,322 199,321 200,365 215,363 215,615 137,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "215,615 216,303 254,303 255,364 266,368 266,615 215,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "266,615 266,368 268,360 288,360 291,275 303,282 353,282 366,275 368,358 396,358 396,615 266,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "396,615 396,403 406,405 408,330 411,330 411,317 423,317 423,330 425,340 465,340 469,410 485,411 485,615 396,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "485,615 485,375 530,375 530,615 485,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "530,615 530,392 537,392 535,350 548,348 550,333 603,333 603,348 612,348 610,404 628,405 625,442 636,441 636,615 530,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "636,615 636,385 642,383 644,369 648,369 649,358 665,358 671,384 700,384 700,408 700,615 636,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "700,615 700,413 712,413 711,399 741,399 740,382 758,382 758,375 777,375 778,382 789,382 788,390 840,390 840,440 850,440 850,615 700,615" stroke = "black" stroke-width = "2" />
+ <polyline points = "850,615 850,416 864,416 863,400 868,401 868,387 897,387 896,365 930,364 930,390 937,390 938,450 958,450 959,459 994,460 992,448 1045,448 1049,210 1057,206 1055,185 1069,160 1070,130 
+                     1074,65 1077,130 1078,160 1089,186 1086,206 1096,212 1102,448 1135,446 1136,456 1170,456 1170,447 1204,447 1204,615 850,615" stroke = "black" stroke-width = "2" />			 
+</svg>
+ 
+ <text id = "footer" x = "564px" y = "620px" font-family = "Segoe UI" font-size = "18" stroke = "#00a2e8" rotate = "20 15">NYC SKYLINE
+  <animate attributeName = "rotate" type = "rotate" dur = "5s" values = "25 20" repeatCount = "4" />
+ </text> 
+</svg>
